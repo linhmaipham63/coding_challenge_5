@@ -108,3 +108,18 @@ let taxRate = 0.07;
 // Log the calculated tax round to 2 decimals
 console.log(`Calculated Tax: $${calculateTax(amount, taxRate).toFixed(2)}`);
 
+
+// Task 9: Function Expression
+
+// Declare function expression 
+let applyDiscount = function(price, discount) {
+    return price*(1-discount); // Return the discounted price
+}
+
+// Take variables price and discount
+beforePrice = 230;
+discount = 0.2;
+
+// Log the discounted price
+console.log(`Discounted Price: $${applyDiscount(beforePrice, discount)}`); 
+
