@@ -81,3 +81,15 @@ totalRev = sales.reduce((num, sale) => num+sale, 0);
 // Log the total revenue
 console.log(`Total Revenue: $${totalRev}`); 
 
+
+// Task 7: find() Method
+
+// Declare array customers 
+let customers = ["Alice", "Bob", "Charlie", "David"]; 
+
+// Use the .find() method to locate the customer "Charlie"
+foundCustomer = customers.find(name => name === "Charlie");
+
+// Log the result
+console.log(foundCustomer);
+
