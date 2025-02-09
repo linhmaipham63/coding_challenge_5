@@ -8,3 +8,19 @@ console.log(`Customer name: ${customer.name}`);
 console.log(`Customer age: ${customer.age}`);
 console.log(`Customer email: ${customer.email}`);
 
+
+// Task 2: Object Methods
+
+// Declare object order
+let order = {
+    orderId: 12345, 
+    totalAmount: 150, 
+    status: "Processing",
+    displayOrder: function() { // Add method displayOrder() to log the order details
+        console.log(`Order ID: ${this.orderId} - Total Amount: $${this.totalAmount} - Order Status: ${this.status}`);
+    }
+};        
+
+// Call the method and log the details
+order.displayOrder();
+
