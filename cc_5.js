@@ -123,3 +123,11 @@ discount = 0.2;
 // Log the discounted price
 console.log(`Discounted Price: $${applyDiscount(beforePrice, discount)}`); 
 
+
+// Task 10: Arrow Function
+
+// Write arrow function 
+let calculatePoints = (purchaseAmount) => Math.floor(purchaseAmount/10); // Return 1 point per $10 spent
+
+// Log the result
+console.log(`Loyalty Points: ${calculatePoints(487)}`); 
