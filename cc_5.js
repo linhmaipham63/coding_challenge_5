@@ -24,3 +24,24 @@ let order = {
 // Call the method and log the details
 order.displayOrder();
 
+
+// Task 3: Array Manipulation (push, pop, shift, unshift)
+
+// Declare array cartItems with three product names
+let cartItems = ['Ice cream', 'Chocolate', 'Candy'];
+
+// Add a new product to the cart using .push()
+cartItems.push('Milk');
+
+// Remove the last item using .pop()
+cartItems.pop();
+
+// Add an item at the beginning using .unshift()
+cartItems.unshift('Cake');
+
+// Remove the first item using .shift()
+cartItems.shift();
+
+// Log the final array to the console
+console.log("Updated array:", cartItems);
+
